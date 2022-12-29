@@ -65,12 +65,12 @@ const MainNavigation = ({ className }) => {
             </li>
           </ul>
           <div className={`nav-button ${active ? "active" : ""}`}>
-            <a href="#user/registration">
+            <Link to="/login">
               <button className="btn-login">Login</button>
-            </a>
-            <a href="#user/registration">
+            </Link>
+            <Link to="/registration">
               <button className="btn-register">Register</button>
-            </a>
+            </Link>
           </div>
 
           <div

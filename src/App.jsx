@@ -9,6 +9,7 @@ import AboutPage from "./pages/about/AboutPage";
 import ContactPage from "./pages/contact/ContactPage";
 import HomePage from "./pages/home/HomePage";
 import PrivacyPolicyPage from "./pages/privacy-policy/PrivacyPolicyPage";
+import RegistrationPage from "./pages/register/RegistrationPage";
 import SitemapPage from "./pages/sitemap/SitemapPage";
 
 const router = createBrowserRouter(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/sitemap" element={<SitemapPage />} />
       <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+      <Route path="/registration" element={<RegistrationPage />} />
     </Route>
   )
 );

@@ -7,9 +7,3 @@
 .layout .navbar {
   min-height: 60px;
 }
-
-.layout .footer {
-  min-height: 60px;
-  background-color: #fff;
-  padding: 20px 0 10px 0;
-}
