@@ -1,0 +1,396 @@
+.container-course {
+  width: 70%;
+}
+
+/* Hero Banner */
+#hero-course {
+  background-image: url(../../assets/images/Hero-banner/hero-banner6.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-text-detail {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.banner-text-detail h1 {
+  font-size: 3rem;
+}
+
+.banner-text-detail p {
+  font-size: 1.2rem;
+}
+
+/* Facilities */
+#facilities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.facilities {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  overflow-x: scroll;
+}
+
+.facilities-header {
+  font-size: 1.3rem;
+}
+
+.facilities-box {
+  display: flex;
+  min-width: 350px;
+  min-height: 150px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.box-icon {
+  margin-right: 15px;
+  font-size: 1.5rem;
+}
+
+.box-text span {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.box-text p {
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+/* Course Details */
+#course-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-details {
+  display: flex;
+  justify-content: center;
+}
+
+.course-details .header {
+  margin-bottom: 20px;
+  color: #118a84;
+}
+
+.course-description {
+  width: 50%;
+  margin-right: 30px;
+}
+
+.course-description img {
+  margin-top: 30px;
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 1px 2px 15px 3px rgba(0, 0, 0, 0.3);
+}
+
+.course-faq {
+  width: 50%;
+}
+
+.course-faq p {
+  margin: 5px 0 10px 0;
+}
+
+/* What Will You Learn */
+.what-will-you-learn {
+  background-color: #118a84;
+  color: #fff;
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.what-will-you-learn .container-course {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-will-you-learn .container-course h2 {
+  font-size: 2rem;
+}
+
+/* Course Topic */
+#course-topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.course-topic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Topic */
+.topic {
+  display: flex;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.topic-image {
+  margin-right: 30px;
+  width: 200px;
+}
+
+.topic-image img {
+  width: 100%;
+  height: auto;
+}
+
+.topic-description .header {
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+}
+
+.topic-description .icon {
+  font-size: 1.1rem;
+}
+
+.topic-description p {
+  margin-bottom: 10px;
+}
+
+.topic-description i {
+  width: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: -5px;
+}
+
+.icon .fa-star {
+  color: #ffc107;
+}
+
+.icon .fa-award {
+  color: #007bff;
+}
+
+.btn-schedule {
+  padding: 10px 20px;
+  background-color: #118a84;
+  border: none;
+  font-size: 1.1rem;
+  color: #fff;
+  border-radius: 3px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.btn-schedule:hover {
+  opacity: 0.7;
+}
+
+/* Student Testimonial */
+#student-testimonial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.student-testimonial {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial-header {
+  /* text-align: center; */
+  margin-bottom: 20px;
+}
+
+.testimonial-header h2 {
+  font-size: 2rem;
+  color: #118a84;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+}
+
+.card-testimonial {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 25px;
+  margin-right: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.card-testimonial-header {
+  display: flex;
+}
+
+.card-testimonial-header .image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 30px;
+}
+
+.card-testimonial-header .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-testimonial-header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-testimonial-header-text span {
+  font-size: 1.1rem;
+}
+
+.card-testimonial-header-text p {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.card-testimonial-header .star {
+  color: #ffc107;
+}
+
+.card-testimonial-body {
+  margin-top: 20px;
+}
+
+.cntr {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 1600px) {
+  .container-course {
+    width: 80%;
+  }
+
+  .topic {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container-course {
+    width: 90%;
+  }
+
+  .topic {
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  #hero-course {
+    margin-top: 60px;
+  }
+
+  .course-details {
+    flex-direction: column;
+    padding: 0px;
+    margin: 0;
+    align-items: center;
+  }
+
+  .course-details .header {
+    margin-bottom: 10px;
+  }
+
+  .course-description {
+    width: 100%;
+    margin: 0;
+  }
+
+  .course-description img {
+    display: none;
+  }
+
+  .course-faq {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .testimonial {
+    flex-direction: column;
+  }
+
+  .card-testimonial {
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #facilities {
+    padding-top: 30px;
+  }
+
+  .banner-text-detail h1 {
+    font-size: 2.5rem;
+  }
+
+  .banner-text-detail p {
+    font-size: 1rem;
+  }
+
+  .facilities-header {
+    text-align: center;
+  }
+
+  .topic-image,
+  .cntr {
+    display: none;
+  }
+
+  #course-topic {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  #hero-course {
+    min-height: 40vh;
+  }
+  .banner-text-detail h1 {
+    font-size: 2rem;
+  }
+}

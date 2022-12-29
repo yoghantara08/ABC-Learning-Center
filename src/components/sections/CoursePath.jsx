@@ -33,7 +33,7 @@ const CoursePath = ({
       <div className="content-box-wrapper">
         {threeCourses.map((course) => (
           <CourseBox
-            key={course.courseId}
+            key={course.name}
             name={course.name}
             rate={course.rate}
             difficulty={course.difficulty}
