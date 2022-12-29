@@ -21,7 +21,7 @@ const ContactForm = () => {
             placeholder="Your questions..."
           ></textarea>
 
-          <input type="submit" value="SEND MESSAGE" class="btn-submit" />
+          <input type="submit" value="SEND MESSAGE" className="btn-submit" />
         </form>
       </div>
     </section>

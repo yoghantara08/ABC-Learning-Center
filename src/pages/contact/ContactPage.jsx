@@ -1,8 +1,9 @@
 import MainLayout from "../../components/layout/MainLayout";
-import "./Contact.css";
 import ContactForm from "./ContactForm";
 import ContactInformation from "./ContactInformation";
 import HeroBanner from "./HeroBanner";
+
+import "./Contact.css";
 
 const ContactPage = () => {
   return (

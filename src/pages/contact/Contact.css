@@ -184,6 +184,7 @@
   #contact {
     min-height: 40vh;
     padding-top: 60px;
+    padding-bottom: 40px;
   }
   .contact-image {
     width: 60%;
@@ -208,11 +209,10 @@
     margin: 80px auto;
   }
 
-  /* Form */
   .form-contact {
-    width: 80vh;
-    padding: 0 30px;
+    width: 90%;
   }
+
   .form-container i {
     display: none;
   }
@@ -221,7 +221,7 @@
 @media (max-width: 768px) {
   #contact {
     min-height: 30vh;
-    background-image: url(../img/Contact/contact-us.png);
+    background-image: url(../../assets/images/Contact/contact-us.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -268,12 +268,8 @@
     width: 100%;
   }
 
-  .contact-box:nth-child(1) {
-    margin: 20px auto;
-  }
-
-  .contact-box:nth-child(2) {
-    margin: 0 auto;
+  #contact-form {
+    margin-top: 0;
   }
 }
 
