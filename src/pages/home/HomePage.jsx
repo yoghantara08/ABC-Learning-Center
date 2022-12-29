@@ -1,7 +1,7 @@
 import MainLayout from "../../components/layout/MainLayout";
 import HeroBanner from "./HeroBanner";
 import OurCompany from "./OurCompany";
-import Partner from "./Partner";
+
 import StudentCounter from "./StudentCounter";
 
 import {
@@ -13,6 +13,22 @@ import {
 } from "../../assets/images";
 import CoursePreview from "./CoursePreview";
 import JoinToday from "../../components/sections/JoinToday";
+import Partner from "../../components/sections/Partner";
+
+const HomePage = () => {
+  return (
+    <MainLayout>
+      <HeroBanner />
+      <Partner />
+      <StudentCounter />
+      <OurCompany />
+      <CoursePreview courses={courses} />
+      <JoinToday />
+    </MainLayout>
+  );
+};
+
+export default HomePage;
 
 const courses = [
   {
@@ -70,18 +86,3 @@ const courses = [
     ],
   },
 ];
-
-const HomePage = () => {
-  return (
-    <MainLayout>
-      <HeroBanner />
-      <Partner />
-      <StudentCounter />
-      <OurCompany />
-      <CoursePreview courses={courses} />
-      <JoinToday />
-    </MainLayout>
-  );
-};
-
-export default HomePage;

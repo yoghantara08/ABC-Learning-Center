@@ -4,7 +4,6 @@
   background-image: url(../../assets/images/Hero-banner/hero-banner7.jpg);
   background-size: cover;
   background-position: center;
-  margin-top: 64px;
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -61,50 +60,6 @@
   height: 100%;
   border-radius: 10px;
   box-shadow: 0px 1px 15px 3px rgba(0, 0, 0, 0.15);
-}
-
-/* Partner */
-#partners {
-  padding: 40px 20px 70px 20px;
-  display: flex;
-  justify-content: center;
-  box-shadow: 0px -1px 15px 3px rgba(0, 0, 0, 0.15);
-}
-
-.partners-container {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.partner-header {
-  font-size: 2rem;
-  color: #525252;
-  text-align: center;
-  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
-}
-
-.partner {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.partner-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 170px;
-  height: 80px;
-  padding: 10px;
-  margin: 10px;
-}
-
-.partner-logo img {
-  width: 100%;
-  height: 100%;
 }
 
 /* Students Counter */
@@ -563,11 +518,6 @@
   .btn-learn {
     margin-top: 15px;
     padding: 8px 24px;
-  }
-
-  .partner-logo {
-    width: 125px;
-    height: 65px;
   }
 
   .student-box span {

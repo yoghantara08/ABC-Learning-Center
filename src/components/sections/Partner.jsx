@@ -6,13 +6,12 @@ import {
   microsoftPartner,
   samsungPartner,
 } from "../../assets/images";
-import "./Home.css";
+import "./Partner.css";
 
 const Partner = () => {
   return (
     <section id="partners">
       <div className="partners-container">
-        <p className="partner-header">Partners</p>
         <div className="partner">
           <div className="partner-logo">
             <img src={googlePartner} alt="Google" />
