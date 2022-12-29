@@ -33,6 +33,7 @@ const MainNavigation = ({ className }) => {
             </li>
             <li className="dropdown">
               <Link
+                preventScrollReset={true}
                 className="nav-link"
                 onClick={() => {
                   setShow(!show);
