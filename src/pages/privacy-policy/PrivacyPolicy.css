@@ -1,0 +1,83 @@
+#privacy-banner {
+  background-image: url(../../assets/images/Hero-banner/hero-banner2.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 30vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#privacy-banner::after {
+  z-index: -1;
+  content: "";
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.privacy-banner-text {
+  position: relative;
+  z-index: 100;
+  color: #fff;
+  text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.privacy-banner-text h1 {
+  font-size: 4rem;
+}
+
+.privacy-banner-text span {
+  color: #0aafa7;
+}
+
+.privacy-banner-text p {
+  font-size: 2rem;
+}
+
+#privacy-statement {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+#privacy-statement strong {
+  font-size: 1.2rem;
+}
+
+#privacy-statement p {
+  margin: 10px 0;
+}
+
+@media (max-width: 992px) {
+  #privacy-banner {
+    margin-top: 60px;
+  }
+
+  .privacy-banner-text h1 {
+    font-size: 3rem;
+  }
+
+  .privacy-banner-text p {
+    font-size: 1.5rem;
+  }
+
+  #privacy-statement {
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .privacy-banner-text h1 {
+    font-size: 2.7rem;
+  }
+  .privacy-banner-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+}
