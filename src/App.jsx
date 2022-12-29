@@ -8,6 +8,7 @@ import "./App.css";
 import AboutPage from "./pages/about/AboutPage";
 import ContactPage from "./pages/contact/ContactPage";
 import HomePage from "./pages/home/HomePage";
+import SitemapPage from "./pages/sitemap/SitemapPage";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -15,6 +16,7 @@ const router = createBrowserRouter(
       <Route index element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/sitemap" element={<SitemapPage />} />
     </Route>
   )
 );
