@@ -42,17 +42,17 @@ const MainNavigation = ({ className }) => {
               </Link>
               <ul className={`dropdown-menu ${show ? "show" : ""}`}>
                 <li>
-                  <Link className="dropdown-item" to="/course-list">
+                  <Link className="dropdown-item" to="/courses">
                     Course List
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/front-end">
+                  <Link className="dropdown-item" to="/courses/frontend">
                     Front-End
                   </Link>
                 </li>
                 <li>
-                  <Link className="dropdown-item" to="/back-end">
+                  <Link className="dropdown-item" to="/courses/backend">
                     Back-End
                   </Link>
                 </li>

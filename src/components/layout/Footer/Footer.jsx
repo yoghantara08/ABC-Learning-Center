@@ -20,8 +20,8 @@ const Footer = ({ className }) => {
             </div>
             <div className="content">
               <span className="header">Program</span>
-              <Link to="/courses/front-end">Front-End Developer</Link>
-              <Link to="/courses/back-end">Back-End Developer</Link>
+              <Link to="/courses/frontend">Front-End Developer</Link>
+              <Link to="/courses/backend">Back-End Developer</Link>
             </div>
             <div className="content">
               <span className="header">Follow Us</span>

@@ -1,13 +1,16 @@
 import { useState } from "react";
 import { course1, course2 } from "../../assets/images";
+import "./CourseList.css";
+
 import CoursePath from "./CoursePath";
 
-const CoursePreview = ({ courses }) => {
+const CourseList = ({ courses }) => {
   const [activeCourse, setActiveCourse] = useState("frontend");
 
   const frontendContent = (
     <CoursePath
-      key={courses[0].title}
+      key={courses[0].courseId}
+      courseId={courses[0].courseId}
       title={courses[0].title}
       classCount={courses[0].classCount}
       studentCount={courses[0].studentCount}
@@ -19,6 +22,7 @@ const CoursePreview = ({ courses }) => {
   const backendContent = (
     <CoursePath
       key={courses[1].title}
+      courseId={courses[1].courseId}
       title={courses[1].title}
       classCount={courses[1].classCount}
       studentCount={courses[1].studentCount}
@@ -67,4 +71,4 @@ const CoursePreview = ({ courses }) => {
   );
 };
 
-export default CoursePreview;
+export default CourseList;

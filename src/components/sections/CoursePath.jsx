@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import CourseBox from "./CourseBox";
 
 const CoursePath = ({
+  courseId,
   title,
   classCount,
   studentCount,
@@ -23,7 +24,7 @@ const CoursePath = ({
         </div>
         <div className="description">
           <p>{description}</p>
-          <Link to="/courses/front-end">
+          <Link to={`/courses/${courseId}`}>
             <button className="btn-learn">Learn More</button>
           </Link>
         </div>
@@ -32,7 +33,7 @@ const CoursePath = ({
       <div className="content-box-wrapper">
         {threeCourses.map((course) => (
           <CourseBox
-            key={course.name}
+            key={course.courseId}
             name={course.name}
             rate={course.rate}
             difficulty={course.difficulty}
