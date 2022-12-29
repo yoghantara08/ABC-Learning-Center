@@ -3,6 +3,7 @@ import MainLayout from "../../components/layout/MainLayout";
 import CourseList from "../../components/sections/CourseList";
 import courses from "../../model/course";
 import "./Courses.css";
+import StudentTestimonial from "./StudentTestimonial";
 
 const CoursesPage = () => {
   return (
@@ -18,9 +19,10 @@ const CoursesPage = () => {
           </div>
         </div>
       </section>
-      <section style={{ marginBottom: "40px" }}>
+      <div style={{ marginBottom: "40px" }}>
         <CourseList courses={courses} />
-      </section>
+      </div>
+      <StudentTestimonial />
     </MainLayout>
   );
 };

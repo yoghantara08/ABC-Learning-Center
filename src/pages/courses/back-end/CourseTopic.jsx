@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { cssLogo, htmlLogo, javascriptLogo } from "../../../assets/images";
+import { awsLogo, javaLogo, javascriptLogo } from "../../../assets/images";
 
 const CourseTopic = () => {
   return (
@@ -13,50 +13,6 @@ const CourseTopic = () => {
         <div className="container-course course-topic">
           <div className="topic">
             <div className="topic-image">
-              <img src={htmlLogo} alt="HTML" />
-            </div>
-            <div className="topic-description">
-              <h2 className="header">HTML</h2>
-              <p className="icon">
-                <i className="fa-solid fa-star"></i> 4,89
-              </p>
-              <p className="icon">
-                <i className="fa-solid fa-award"></i> Beginner
-              </p>
-              <p className="text">
-                Get started as a web developer by learning the basics of HTML,
-                the essential language of the web.
-              </p>
-              <Link to="#course/front-end-schedule">
-                <button className="btn-schedule">Course Schedule</button>
-              </Link>
-            </div>
-          </div>
-
-          <div className="topic">
-            <div className="topic-image">
-              <img src={cssLogo} alt="CSS" />
-            </div>
-            <div className="topic-description">
-              <h2 className="header">CSS</h2>
-              <p className="icon">
-                <i className="fa-solid fa-star"></i> 4,84
-              </p>
-              <p className="icon">
-                <i className="fa-solid fa-award"></i> Beginner
-              </p>
-              <p className="text">
-                Learn and practice the fundamentals of CSS to add beautiful
-                styling to your webpages.
-              </p>
-              <Link to="/courses/frontend-schedule">
-                <button className="btn-schedule">Course Schedule</button>
-              </Link>
-            </div>
-          </div>
-
-          <div className="topic">
-            <div className="topic-image">
               <img src={javascriptLogo} alt="Javascript" />
             </div>
             <div className="topic-description">
@@ -65,13 +21,57 @@ const CourseTopic = () => {
                 <i className="fa-solid fa-star"></i> 4,82
               </p>
               <p className="icon">
-                <i className="fa-solid fa-award"></i> Intermediate
+                <i className="fa-solid fa-award"></i> Beginner
               </p>
               <p className="text">
                 Learn the fundamentals of JavaScript: syntax, variables,
                 conditionals, and functions.
               </p>
-              <Link to="/courses/frontend-schedule">
+              <Link to="/course/backend-schedule">
+                <button className="btn-schedule">Course Schedule</button>
+              </Link>
+            </div>
+          </div>
+
+          <div className="topic">
+            <div className="topic-image cntr" style={{ marginBottom: "50px" }}>
+              <img src={javaLogo} alt="Java" />
+            </div>
+            <div className="topic-description">
+              <h2 className="header">Java</h2>
+              <p className="icon">
+                <i className="fa-solid fa-star"></i> 4,79
+              </p>
+              <p className="icon">
+                <i className="fa-solid fa-award"></i> Intermediate
+              </p>
+              <p className="text">
+                Learn the basics of the popular Java language in this
+                introductory course.
+              </p>
+              <Link to="/course/backend-schedule">
+                <button className="btn-schedule">Course Schedule</button>
+              </Link>
+            </div>
+          </div>
+
+          <div className="topic">
+            <div className="topic-image cntr">
+              <img src={awsLogo} alt="AWS" />
+            </div>
+            <div className="topic-description">
+              <h2 className="header">AWS</h2>
+              <p className="icon">
+                <i className="fa-solid fa-star"></i> 4,89
+              </p>
+              <p className="icon">
+                <i className="fa-solid fa-award"></i> Intermediate
+              </p>
+              <p className="text">
+                Learn the foundations of cloud computing across platforms like
+                AWS.
+              </p>
+              <Link to="/course/backend-schedule">
                 <button className="btn-schedule">Course Schedule</button>
               </Link>
             </div>

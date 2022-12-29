@@ -1,26 +1,25 @@
-import { Link } from "react-router-dom";
 import MainLayout from "../../../components/layout/MainLayout";
-import Facilities from "./Facilities";
-import CourseDetails from "./CourseDetails";
-import CourseTopic from "./CourseTopic";
 
 import "../CourseDetail.css";
+import CourseDetails from "../front-end/CourseDetails";
+import Facilities from "../front-end/Facilities";
 import StudentTestimonial from "../StudentTestimonial";
+import CourseTopic from "./CourseTopic";
 
-const FrontEnd = () => {
+const BackEnd = () => {
   return (
     <MainLayout>
       <section id="hero-course">
         <div className="container-course">
           <div className="banner-text-detail">
-            <h1>Front-End Web Developer</h1>
+            <h1>Back-End Developer</h1>
             <p>
-              Students are prepared to become Front-End Web Developers according
-              to industry standards.
+              Students are prepared to become Back-End Developers according to
+              industry needs.
             </p>
-            <Link to="/registration">
+            <a href="/user/registration">
               <button className="btn-join-today">Join Today</button>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
@@ -32,4 +31,4 @@ const FrontEnd = () => {
   );
 };
 
-export default FrontEnd;
+export default BackEnd;

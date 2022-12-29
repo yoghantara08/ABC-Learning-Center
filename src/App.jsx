@@ -7,6 +7,7 @@ import {
 import "./App.css";
 import AboutPage from "./pages/about/AboutPage";
 import ContactPage from "./pages/contact/ContactPage";
+import BackEnd from "./pages/courses/back-end/BackEnd";
 import CoursesPage from "./pages/courses/CoursesPage";
 import FrontEnd from "./pages/courses/front-end/FrontEnd";
 import HomePage from "./pages/home/HomePage";
@@ -25,7 +26,7 @@ const router = createBrowserRouter(
       <Route path="/registration" element={<RegistrationPage />} />
       <Route path="/courses" element={<CoursesPage />} />
       <Route path="/courses/frontend" element={<FrontEnd />} />
-      <Route path="/courses/backend" element={<FrontEnd />} />
+      <Route path="/courses/backend" element={<BackEnd />} />
     </Route>
   )
 );

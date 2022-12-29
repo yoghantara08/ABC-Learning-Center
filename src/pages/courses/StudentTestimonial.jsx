@@ -1,4 +1,4 @@
-import { student1, student2 } from "../../../assets/images";
+import { student1, student2 } from "../../assets/images";
 
 const StudentTestimonial = () => {
   return (
