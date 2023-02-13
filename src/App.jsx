@@ -12,6 +12,7 @@ import BackEnd from "./pages/courses/back-end/BackEnd";
 import CoursesPage from "./pages/courses/CoursesPage";
 import FrontEnd from "./pages/courses/front-end/FrontEnd";
 import HomePage from "./pages/home/HomePage";
+import LoginPage from "./pages/login/LoginPage";
 import PrivacyPolicyPage from "./pages/privacy-policy/PrivacyPolicyPage";
 import RegistrationPage from "./pages/register/RegistrationPage";
 import SitemapPage from "./pages/sitemap/SitemapPage";
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="/sitemap" element={<SitemapPage />} />
       <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
       <Route path="/registration" element={<RegistrationPage />} />
+      <Route path="/login" element={<LoginPage />} />
       <Route path="/courses" element={<CoursesPage />} />
       <Route path="/courses/frontend" element={<FrontEnd />} />
       <Route path="/courses/backend" element={<BackEnd />} />
