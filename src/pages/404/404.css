@@ -1,0 +1,26 @@
+.not-found-page {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.not-found .text-404 {
+  font-size: 4rem;
+}
+
+.not-found .text-not-found {
+  font-size: 2rem;
+}
+
+.not-found .button-back {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  background-color: #118a84;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s;
+}

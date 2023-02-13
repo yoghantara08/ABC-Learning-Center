@@ -5,6 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./App.css";
+import NotFoundPage from "./pages/404/404Page";
 import AboutPage from "./pages/about/AboutPage";
 import ContactPage from "./pages/contact/ContactPage";
 import BackEnd from "./pages/courses/back-end/BackEnd";
@@ -27,6 +28,7 @@ const router = createBrowserRouter(
       <Route path="/courses" element={<CoursesPage />} />
       <Route path="/courses/frontend" element={<FrontEnd />} />
       <Route path="/courses/backend" element={<BackEnd />} />
+      <Route path="*" element={<NotFoundPage />} />
     </Route>
   )
 );

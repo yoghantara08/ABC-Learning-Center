@@ -7,9 +7,13 @@ import { ScrollRestoration } from "react-router-dom";
 const MainLayout = (props) => {
   return (
     <div className="layout">
-      <MainNavigation className="navbar" />
+      <header className="navbar">
+        <MainNavigation />
+      </header>
       <main>{props.children}</main>
-      <Footer className="footer" />
+      <footer className="footer">
+        <Footer />
+      </footer>
       <ScrollRestoration />
     </div>
   );
