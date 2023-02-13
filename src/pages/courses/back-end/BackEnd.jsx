@@ -1,8 +1,8 @@
 import MainLayout from "../../../components/layout/MainLayout";
 
 import "../CourseDetail.css";
-import CourseDetails from "../front-end/CourseDetails";
-import Facilities from "../front-end/Facilities";
+import CourseDetails from "../back-end/CourseDetails";
+import Facilities from "../back-end/Facilities";
 import StudentTestimonial from "../StudentTestimonial";
 import CourseTopic from "./CourseTopic";
 

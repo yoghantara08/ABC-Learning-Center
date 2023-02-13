@@ -27,7 +27,7 @@ const CourseTopic = () => {
                 Learn the fundamentals of JavaScript: syntax, variables,
                 conditionals, and functions.
               </p>
-              <Link to="/course/backend-schedule">
+              <Link to="">
                 <button className="btn-schedule">Course Schedule</button>
               </Link>
             </div>
@@ -49,7 +49,7 @@ const CourseTopic = () => {
                 Learn the basics of the popular Java language in this
                 introductory course.
               </p>
-              <Link to="/course/backend-schedule">
+              <Link to="">
                 <button className="btn-schedule">Course Schedule</button>
               </Link>
             </div>
@@ -71,7 +71,7 @@ const CourseTopic = () => {
                 Learn the foundations of cloud computing across platforms like
                 AWS.
               </p>
-              <Link to="/course/backend-schedule">
+              <Link to="">
                 <button className="btn-schedule">Course Schedule</button>
               </Link>
             </div>

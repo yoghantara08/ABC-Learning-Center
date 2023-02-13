@@ -27,7 +27,7 @@ const CourseTopic = () => {
                 Get started as a web developer by learning the basics of HTML,
                 the essential language of the web.
               </p>
-              <Link to="#course/front-end-schedule">
+              <Link to="">
                 <button className="btn-schedule">Course Schedule</button>
               </Link>
             </div>
@@ -49,7 +49,7 @@ const CourseTopic = () => {
                 Learn and practice the fundamentals of CSS to add beautiful
                 styling to your webpages.
               </p>
-              <Link to="/courses/frontend-schedule">
+              <Link to="">
                 <button className="btn-schedule">Course Schedule</button>
               </Link>
             </div>
@@ -71,7 +71,7 @@ const CourseTopic = () => {
                 Learn the fundamentals of JavaScript: syntax, variables,
                 conditionals, and functions.
               </p>
-              <Link to="/courses/frontend-schedule">
+              <Link to="">
                 <button className="btn-schedule">Course Schedule</button>
               </Link>
             </div>
